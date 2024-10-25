@@ -42,7 +42,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
 // Use the cors() middleware for regular requests
-app.use(cors(corsOptions));
+app.use(cors("*));
 
 
 
